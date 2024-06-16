@@ -2,7 +2,7 @@ from github import Github
 
 # Replace with your GitHub username and access token
 USERNAME = "Jtrip23"
-TOKEN = ${{ secrets.HUB_TOKEN }}
+TOKEN = "${{ secrets.HUB_TOKEN }}"
 
 # List of repositories where branches will be created
 repositories = [
