@@ -6,10 +6,10 @@ TOKEN = "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"
 
 # List of repositories where branches will be created
 repositories = [
-    {"name": "SampleRepo1", "base_branch": "main", "new_branch": "feature-branch4"},
-    {"name": "SampleRepo2", "base_branch": "main", "new_branch": "feature-branch4"},
-    {"name": "HelloWorld", "base_branch": "main", "new_branch": "feature-branch4"},
-    {"name": "Branching", "base_branch": "main", "new_branch": "feature-branch4"}
+    {"name": "SampleRepo1", "base_branch": "main", "new_branch": "feature-branch5"},
+    {"name": "SampleRepo2", "base_branch": "main", "new_branch": "feature-branch5"},
+    {"name": "HelloWorld", "base_branch": "main", "new_branch": "feature-branch5"},
+    {"name": "Branching", "base_branch": "main", "new_branch": "feature-branch5"}
 ]
 
 def create_branch(username, token, repo_name, base_branch, new_branch_name):
