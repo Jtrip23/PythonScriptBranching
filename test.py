@@ -2,7 +2,7 @@ from github import Github
 
 # Replace with your GitHub username and access token
 USERNAME = "Jtrip23"
-TOKEN = "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"
+TOKEN = "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"
 
 # List of repositories where branches will be created
 repositories = [
