@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12'  # Replace with your Python version
+          python-version: 3.12.3  # Replace with your Python version
 
       - name: Install dependencies
         run: |
@@ -24,4 +24,4 @@ jobs:
           pip install PyGithub  
 
       - name: Run Python script
-        run: python test.py  # Replace with the path to your script
+        run: python test.py # Replace with the path to your script
