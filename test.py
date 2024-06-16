@@ -6,10 +6,10 @@ TOKEN = ${{ secrets.HUB_TOKEN }}
 
 # List of repositories where branches will be created
 repositories = [
-    {"name": "SampleRepo1", "base_branch": "main", "new_branch": "feature-branch6"},
-    {"name": "SampleRepo2", "base_branch": "main", "new_branch": "feature-branch6"},
-    {"name": "HelloWorld", "base_branch": "main", "new_branch": "feature-branch6"},
-    {"name": "Branching", "base_branch": "main", "new_branch": "feature-branch6"}
+    {"name": "SampleRepo1", "base_branch": "main", "new_branch": "feature-branch7"},
+    {"name": "SampleRepo2", "base_branch": "main", "new_branch": "feature-branch7"},
+    {"name": "HelloWorld", "base_branch": "main", "new_branch": "feature-branch7"},
+    {"name": "Branching", "base_branch": "main", "new_branch": "feature-branch7"}
 ]
 
 def create_branch(username, token, repo_name, base_branch, new_branch_name):
