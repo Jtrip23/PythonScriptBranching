@@ -25,5 +25,5 @@ jobs:
       - name: Create branch in GitHub
         run: python testing.py
         env:
-          USERNAME: ${{ secrets.HUB_USERNAME }}
-          TOKEN: ${{ secrets.HUB_TOKEN }}
+          USERNAME: ${{ secrets.USERNAME }}
+          TOKEN: ${{ secrets.TOKEN }}
